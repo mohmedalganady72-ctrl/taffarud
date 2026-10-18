@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/base-models/layout,_N_T_/admin/base-models/page,_N_T_/admin/base-models"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/b4988290d35fc8b82daf35f96f51686ac497593f1b62af181de62b31929ac15b/$/admin/base-models",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/admin/base-models/page"
+    },
+    "isFallback": false
+  }
+}
