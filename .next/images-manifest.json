@@ -35,7 +35,13 @@
     "dangerouslyAllowSVG": false,
     "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
     "contentDispositionType": "attachment",
-    "remotePatterns": [],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "^(?:^(?:ztnwzyopgacsvguyfzto\\.supabase\\.co)$)$",
+        "pathname": "^(?:\\/storage\\/v1\\/object\\/public\\/catalog-images(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$"
+      }
+    ],
     "unoptimized": false,
     "sizes": [
       640,
